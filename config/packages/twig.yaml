@@ -1,6 +1,12 @@
 twig:
     default_path: '%kernel.project_dir%/templates'
-
+    globals:
+        contact_address: '2 rue du repos'
+        contact_city: 'Ville'
+        contact_email: 'prenom.nom@domaine.fr'
+        contact_phone: '01.23.45.67.89'
+        contact_zip: '12345'
+        copyright: 'Copyright © 2021 - Florian PELLEGRINI'
 when@test:
     twig:
         strict_variables: true
